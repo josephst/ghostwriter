@@ -17,4 +17,4 @@ jQuery(function($) {
     });
 });
 
-hljs.initHighlightingOnLoad();
+// hljs.initHighlightingOnLoad();
