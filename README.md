@@ -46,6 +46,16 @@ copyright = "My Name"
 googleAnalytics = "XXX"
 disqusShortname = "XXX"
 
+[Privacy]
+
+[Privacy.disqus]
+    disable = true
+
+[Privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = false
+
 [Author]
     name = "My Name"
     profile = "https://google.com/+XXX"
@@ -54,6 +64,7 @@ disqusShortname = "XXX"
     tag = "tags"
 
 [Params]
+    mainSections = ["post"]
     intro = true
     headline = "My headline"
     description = "My description"
@@ -63,6 +74,7 @@ disqusShortname = "XXX"
     gplus = "https://google.com/+XXX"
     twitter = "https://twitter.com/XXX"
     stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    facebook = "https://www.facebook.com/username"
     email = "XXX@example.com"
     opengraph = true
     shareTwitter = true
@@ -72,6 +84,14 @@ disqusShortname = "XXX"
     dateFormat = "Mon, Jan 2, 2006"
     highlightJsUrl = ""
     highlightJsLocalUrl = ""
+    exponeaJsUrl = ""
+    exponeaTarget = ""
+    exponeaToken = ""
+    exponeaTrackVisits = false
+    readingTime = true
+    readingTimeText = "Estimated reading time:"
+    fathomUrl = ""
+    fathomSiteId = ""
 
 [Permalinks]
     post = "/:year/:month/:day/:filename/"

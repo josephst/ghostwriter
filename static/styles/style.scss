@@ -358,27 +358,26 @@ table {
 }
 
 .post-date,
+.post-reading,
 .blog-description {
-  color: #aeadad;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  margin: 25px 0 0;
+    color: #AEADAD;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 25px 0 0;
 
-  a {
-    color: #aeadad;
-  }
-  a:hover {
-    color: $primary;
-  }
+    a { color: #AEADAD; }
+    a:hover { color: $primary; }
+}
 
-  &:after {
-    border-bottom: 1px dotted $secondary;
-    content: "";
-    display: block;
-    margin: 40px auto 0;
-    width: 100px;
-  }
+.post-line {
+    &:after {
+        border-bottom: 1px dotted $secondary;
+        content: "";
+        display: block;
+        margin: 40px auto 0;
+        width: 100px;
+    }
 }
 
 .post-content {
